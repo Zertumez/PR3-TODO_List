@@ -212,7 +212,7 @@ namespace PR3_TODO_List
                             }
                             else
                             {
-                                listaNueva.ExportarADocumentoDeTexto(tituloDeArchivo);
+                                listaNueva.ExportarADocumentoDeTexto(tituloDeArchivo + ".txt");
                                 Console.WriteLine("");
                                 Console.WriteLine("¡Su lista ha sido exportada a un archivo de texto exitosamente!");
                                 Console.WriteLine("");
